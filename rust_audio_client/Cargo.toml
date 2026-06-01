@@ -1,0 +1,14 @@
+[package]
+name = "rust_audio_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# For cross-platform microphone hardware access
+cpal = "0.15.3"
+
+# For cross-thread communication channels
+crossbeam-channel = "0.5.11"
+
+# Type conversions for sending byte chunks over the network
+byteorder = "1.5.0"

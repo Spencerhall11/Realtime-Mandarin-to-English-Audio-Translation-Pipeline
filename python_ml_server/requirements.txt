@@ -1,0 +1,14 @@
+#learning backend
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+
+#audio processing
+soundfile>=0.12.1
+
+# Translation & Tokenization Dependencies
+sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+#optimization
+accelerate>=0.20.0
